@@ -1,1 +1,24 @@
 Estos son mis apuntes
+QUE ES REACT NATIVE?------------------------------------------------------------------------------------------------------
+React js y React Native estan relacionados ya que son frameworks para poder crear apps
+Con React puedes crear aplicaciones Web, pero react tiene otra libreria, llamada React DOM, esto sirve para que pueda traducir
+el codigo hecho con React JS, con react js hacemos todo el codigo para actualizar los estados y crear el arbol de componentes 
+visuales y react Dom traduce ese resultado, 
+
+Con React Native es algo similar, solo que traduce el codigo de react a los componentes nativos de Android o IOS, tambien se 
+exportan apis de la plataforma nativa como el uso de la camara a base de codigo javascript. React Native es como React Dom, solo
+que no apunta a la web.
+
+
+
+COMO FUNCIONA REACT?-------------------------------------------------------------------------------------------------------
+Primero, nosotros no podemos usar react dom en react native, para ello se usa un equivalente para que luego react native compile
+(traduzca) a los widgets nativos de cada plataforma (ios o Android), pero con la logica no pasa lo mismo, la logica no se compila
+al lenguaje nativo, sigue siendo javascript, pero existe un subproceso que se aloja gracias a react native dentro de la aplicacion
+nativa que se creó, entonces, este proceso se activa y nos ayuda que el codigo javascript se pueda comunicar con la plataforma nativa.
+
+EXPO CLI O REACT NATIVE CLI--------------------------------------------------------------------------------------------------
+expo es una interfaz de linea de comandos que nos ayuda a poder crear proyectos con react native, 
+React native cli, de igual manera nos ayuda a crear aplicaciones con react native, 
+Cual es la diferencia?, la diferencia es que uno es expo es mas facil de usar y mas rapido, en cambio con react native cli
+se tienen que hacer varias configuraciones
