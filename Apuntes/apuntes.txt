@@ -22,3 +22,6 @@ expo es una interfaz de linea de comandos que nos ayuda a poder crear proyectos 
 React native cli, de igual manera nos ayuda a crear aplicaciones con react native, 
 Cual es la diferencia?, la diferencia es que uno es expo es mas facil de usar y mas rapido, en cambio con react native cli
 se tienen que hacer varias configuraciones
+
+
+
